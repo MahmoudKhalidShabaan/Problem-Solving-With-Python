@@ -1,0 +1,11 @@
+# write a python program to get the arthimetic operations in two numbers =>
+frist_num = float(input("please enter the frist number is = "))
+second_num = float(input("please enter the second number is = "))
+print("the values of the two number is : ")
+print("the frist number is = "+str(frist_num))
+print("the second number is = "+str(second_num))
+print("the result of the addition arthimetic operation of the two numbers is = "+str(frist_num + second_num))
+print("the result of the subtraction arthimetic operation of the two numbers is = "+str(frist_num - second_num))
+print("the result of the multiplication arthimetic operation of the two numbers is = "+str(frist_num * second_num))
+print("the result of the division arthimetic operation of the two numbers is = "+str(frist_num / second_num))
+print("the result of the modulus arthimetic operation of the two numbers is = "+str(frist_num % second_num))
