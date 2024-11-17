@@ -18,11 +18,17 @@ def get_all_arthimetic_operations_on_two_numbers(fri_num , sec_num) :
     print("the values of the two numbers is : ")
     print ("the frist number is = "+str(fri_num))
     print("the second number is = "+str(sec_num))
-    print("the result of the addition arthimetic operation of the two numbers is = "+str(fri_num + sec_num))
-    print("the result of the subtraction arthimetic operation of the two numbers is = "+str(fri_num - sec_num))
-    print("the result of the multiplication arthimetic operation of the two numbers is = "+str(fri_num * sec_num))
-    print("the result of the division arthimetic operation of the two numbers is = "+str(fri_num / sec_num))
-    print("the result of the modulus arthimetic operation of the two numbers is = "+str(fri_num % sec_num))
+    sum_of_all_num = fri_num + sec_num
+    sub_of_all_num = fri_num - sec_num
+    mul_of_all_num = fri_num * sec_num
+    div_of_all_num = fri_num / sec_num 
+    mod_of_all_num = fri_num % sec_num
+    
+    print("the result of the addition arthimetic operation of the two numbers is = "+str(sum_of_all_num ))
+    print("the result of the subtraction arthimetic operation of the two numbers is = "+str(sub_of_all_num))
+    print("the result of the multiplication arthimetic operation of the two numbers is = "+str(mul_of_all_num))
+    print("the result of the division arthimetic operation of the two numbers is = "+str(div_of_all_num ))
+    return("the result of the modulus arthimetic operation of the two numbers is = "+str(mod_of_all_num ))
 frist_num = float(input("please enter the frist number is = "))
 second_num = float(input("please enter the second number is = "))
 print(get_all_arthimetic_operations_on_two_numbers(frist_num , second_num))
